@@ -223,16 +223,8 @@ int main()
 		C[i] = new double[n];
 	}
 
-	cout << "A: " << endl;
-	printArr(D, n1);
-
-	cout << "B: " << endl;
-	printArr(E, n1);
 	unsigned int start_time = clock();
 	shtrassen(D, E, C, n);
-
-	cout << "Result of A*B =  " << endl;
-	printArr(C, n1);
 
 
 	unsigned int end_time = clock();
